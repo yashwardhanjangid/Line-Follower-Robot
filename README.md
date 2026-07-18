@@ -5,17 +5,17 @@
 ![Platform](https://img.shields.io/badge/Platform-Arduino-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-An Arduino Uno based autonomous **Line Follower Robot** that detects and follows a black line using **dual IR sensors** and controls two DC motors through the **L298N Motor Driver**.
+An Arduino Uno based autonomous **Line Follower Robot** that detects and follows a black line using dual IR sensors and controls two DC motors through the **L298N Motor Driver**.
 
-This project was developed during a robotics workshop to understand the practical implementation of embedded systems, sensor interfacing, motor control, and Arduino programming.
+This project was developed during a robotics workshop to gain hands-on experience in embedded systems, Arduino programming, sensor interfacing, and motor control.
 
 ---
 
 # 📌 Project Overview
 
-The robot continuously reads data from two IR sensors placed underneath the chassis.
+The robot continuously reads data from two IR sensors mounted underneath the chassis.
 
-Depending on sensor readings, the Arduino adjusts the speed of the left and right motors using the L298N motor driver, enabling the robot to accurately follow a predefined black track on a white surface.
+Based on the sensor readings, the Arduino Uno controls the left and right DC motors through the L298N Motor Driver, allowing the robot to accurately follow a predefined black line on a white surface.
 
 ---
 
@@ -25,9 +25,9 @@ Depending on sensor readings, the Arduino adjusts the speed of the left and righ
 - 🎯 Dual IR Sensor Detection
 - ⚡ Differential Motor Speed Control
 - 🔌 Arduino Uno Based
-- 🚗 Two DC Gear Motors
-- 🛠️ Modular Hardware Design
-- 📚 Beginner Friendly Arduino Code
+- 🚗 Dual DC Gear Motors
+- 🛠️ Lightweight Modular Chassis
+- 📚 Beginner-Friendly Arduino Code
 
 ---
 
@@ -47,28 +47,42 @@ Depending on sensor readings, the Arduino adjusts the speed of the left and righ
 
 ---
 
+# 📸 Project Gallery
+
+<p align="center">
+  <img src="Images/20260627_104829 (2).jpg" width="45%">
+  <img src="Images/20260627_222815~2 (1).jpg" width="45%">
+</p>
+
+<p align="center">
+  <img src="Images/20260701_101451~2.jpg" width="45%">
+  <img src="Images/20260701_124552(3).jpg" width="45%">
+</p>
+
+---
+
 # 💻 Software Used
 
 - Arduino IDE
-- Embedded C / Arduino C++
+- Arduino C/C++
+- Embedded Systems Programming
 
 ---
 
 # ⚙️ Working Principle
 
-1. IR sensors continuously detect the surface.
-2. White surface reflects IR light differently than the black line.
-3. Arduino processes sensor inputs.
-4. L298N driver controls both motors.
-5. Motor speed is adjusted according to sensor readings.
-6. The robot follows the line automatically.
+1. The IR sensors continuously detect the surface beneath the robot.
+2. The sensors differentiate between the black line and the white background.
+3. The Arduino processes the sensor inputs.
+4. According to the detected path, the Arduino controls the left and right motors using the L298N Motor Driver.
+5. The robot continuously adjusts its direction and follows the line automatically.
 
 ---
 
 # 📂 Repository Structure
 
 ```
-Line-Follower-Robot
+Line-Follower-Robot/
 │
 ├── Docs/
 │   └── README.md
@@ -90,41 +104,39 @@ Line-Follower-Robot
 
 # 📸 Project Images
 
-Project photographs are available inside the **Images** folder.
-
-They include:
+The **Images** folder contains photographs of the project, including:
 
 - Hardware Assembly
-- Robot Chassis
 - Electronics Setup
+- Robot Chassis
 - Competition Arena
-- Final Robot Body
+- Final Robot Body Design
 
 ---
 
 # 🎥 Project Video
 
-The **Videos** folder contains a short showcase of the completed robot hardware.
+A short showcase video of the completed robot hardware is available in the **Videos** folder.
 
-> **Note:** The uploaded video presents the completed hardware and overall assembly. It is intended as a hardware showcase and does not demonstrate live line-following performance.
+> **Note:** The uploaded video showcases the completed hardware assembly and overall robot design. It is intended as a hardware presentation and does not include a live line-following demonstration.
 
 ---
 
 # 📖 Documentation
 
-Additional documentation and project notes are available inside the **Docs** folder.
+Additional documentation and project-related notes are available in the **Docs** folder.
 
 ---
 
 # 🚀 Future Improvements
 
-- PID Control Algorithm
+- PID Based Line Following
 - Adjustable Speed Calibration
-- Bluetooth Configuration
+- Bluetooth Control
 - Obstacle Detection
-- Maze Solving Capability
-- ESP32 Upgrade
-- OLED Display Integration
+- Maze Solving Algorithm
+- ESP32 Integration
+- OLED Display Support
 
 ---
 
@@ -138,8 +150,10 @@ This project is licensed under the **MIT License**.
 
 **Yashwardhan Jangid**
 
-B.Tech — Electronics & Communication Engineering
+B.Tech – Electronics & Communication Engineering
 
 MBM University, Jodhpur
 
-⭐ If you found this project useful, consider giving this repository a **Star**.
+---
+
+If you found this project helpful, consider giving this repository a ⭐ Star.

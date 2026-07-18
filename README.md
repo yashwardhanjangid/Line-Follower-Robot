@@ -1,55 +1,49 @@
 # 🤖 Arduino Line Follower Robot
 
-An Arduino Uno based autonomous Line Follower Robot developed using IR sensors and the L298N Motor Driver. The robot detects a black line on a white surface and adjusts the speed of both motors to follow the track accurately.
+An Arduino Uno based Line Follower Robot developed using dual IR sensors and the L298N Motor Driver. This project was built to understand the fundamentals of embedded systems, sensor interfacing, motor control, and autonomous robotics.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project was built as part of a robotics workshop to understand the fundamentals of:
+This robot detects a black line on a white surface using IR sensors and controls two DC motors through an L298N motor driver to follow the track automatically.
 
-- Embedded Systems
-- Arduino Programming
-- Sensor Interfacing
-- Motor Control
-- Autonomous Robot Navigation
-
-The robot continuously reads data from two IR sensors and controls the motors through an L298N motor driver to follow the track automatically.
+The project was developed as part of a robotics workshop and demonstrates the practical implementation of Arduino programming, sensor integration, and motor driver control.
 
 ---
 
 # ✨ Features
 
 - Automatic Line Following
-- Dual IR Sensor Detection
-- Differential Motor Speed Control
-- Arduino Uno Based
+- Dual IR Sensor Based Detection
+- Arduino Uno Control
 - L298N Motor Driver
-- Lightweight Robot Chassis
-- Easy to Modify and Extend
+- Differential Motor Speed Control
+- Simple and Easy-to-Understand Arduino Code
+- Modular Hardware Design
 
 ---
 
 # 🛠 Hardware Components
 
 | Component | Quantity |
-|-----------|----------|
+|-----------|---------:|
 | Arduino Uno | 1 |
 | L298N Motor Driver | 1 |
-| IR Sensors | 2 |
-| DC BO Motors | 2 |
+| IR Sensor Module | 2 |
+| BO DC Motor | 2 |
 | Wheels | 2 |
 | Robot Chassis | 1 |
 | Castor Wheel | 1 |
 | Jumper Wires | As Required |
-| 12V Power Supply | 1 |
+| 12V DC Power Supply | 1 |
 
 ---
 
-# ⚙️ Software Used
+# 💻 Software Used
 
 - Arduino IDE
-- Embedded C / Arduino Language
+- Arduino Programming Language (C/C++)
 
 ---
 
@@ -58,10 +52,18 @@ The robot continuously reads data from two IR sensors and controls the motors th
 ```
 Line-Follower-Robot/
 │
-├── Docs/                 # Documentation
-├── Images/               # Project Images
-├── Videos/               # Demo Videos
-├── LineFollower.ino      # Arduino Source Code
+├── Docs/
+│   └── README.md
+│
+├── Images/
+│   ├── Project Images
+│   └── README.md
+│
+├── Videos/
+│   ├── Project Showcase Video
+│   └── README.md
+│
+├── LineFollower.ino
 ├── LICENSE
 └── README.md
 ```
@@ -70,23 +72,39 @@ Line-Follower-Robot/
 
 # 📸 Project Images
 
-Project images are available inside the **Images** folder.
+Project photographs are available inside the **Images** folder.
+
+These images include:
+
+- Robot hardware
+- Circuit assembly
+- Competition arena
+- Final robot body
 
 ---
 
-# 🎥 Demo Video
+# 🎥 Project Showcase
 
-The demonstration video is available inside the **Videos** folder.
+The **Videos** folder contains a short showcase of the completed robot hardware and overall assembly.
+
+> **Note:** The uploaded video presents the completed robot design. It is intended as a hardware showcase rather than a live line-following demonstration.
+
+---
+
+# 📖 Documentation
+
+Additional project notes and documentation are available inside the **Docs** folder.
 
 ---
 
 # 🚀 Future Improvements
 
 - PID Based Line Following
-- Adjustable Speed using Bluetooth
+- Adjustable Speed Calibration
+- Bluetooth Based Configuration
+- Better Chassis Design
 - Obstacle Detection
 - Maze Solving Algorithm
-- Better Chassis Design
 
 ---
 
@@ -103,6 +121,6 @@ https://github.com/yashwardhanjangid
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
